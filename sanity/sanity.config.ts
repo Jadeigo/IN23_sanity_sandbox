@@ -10,7 +10,7 @@ export default defineConfig({
   name: 'default',
   title: 'tomato-chicken',
 
-  projectId: 'nnzoqjxs',
+  projectId: '0jx3nh83',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
