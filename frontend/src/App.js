@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
 
-  let PROJECTID = 'nnzoqjxs'
+  let PROJECTID = '0jx3nh83'
   let DATASET = 'production'
   let QUERY = encodeURIComponent('*[_type == "products"]')
   let URL = `https://${PROJECTID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`
